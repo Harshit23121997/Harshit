@@ -1,0 +1,13 @@
+.bg{
+  background-image: url("/assets/images/BackGround.png");
+
+  /* Full height */
+  height: 100vh;
+  width: 100vw;
+
+  /* Center and scale the image nicely */
+  background-color: azure;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
