@@ -1,22 +1,36 @@
-
-
-  img{
-      border-radius: 50%;
-      image-orientation: flip;
-      justify-content: center;
-      align-items: center;
-  }
-
-  .example-card {
-    max-width: 300px;
-    justify-content: center;
-    align-items: center;
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Philosopher&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@1,700&display=swap');
+.picture{
     text-align: center;
-  }
-  
-  .example-header-image {
-    justify-content: center;
-    align-items: center;
+}
 
-  }
-  
+.right{
+    text-align: right;
+}
+
+img{
+    width: 200px;
+    height: 220;
+    border-radius: 100%;
+}
+.name{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 500%;
+    justify-content: center;
+}
+.desc{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 300%;
+}
+
+
+.navb{
+    justify-content: space-evenly;
+}
+span{
+    cursor: pointer;  
+}
+.welcome{
+    font-family: 'Philosopher', sans-serif;
+    font-size: 200%;
+}

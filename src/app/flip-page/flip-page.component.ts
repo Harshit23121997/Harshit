@@ -14,7 +14,7 @@ export class FlipPageComponent implements OnInit {
 
   ngOnInit(): void {
     setTimeout(() => {
-      this.router.navigate(['about'])
+      this.router.navigate(['landing'])
     }, 5000);
 
   }
