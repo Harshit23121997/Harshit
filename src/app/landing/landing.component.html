@@ -1,0 +1,25 @@
+<!--mat-grid-list cols="4" height="100vh">
+    <mat-grid-tile *ngFor="let tile of tiles" [colspan]="tile.cols" [rowspan]="tile.rows"
+        [style.background]="tile.color">
+        {{tile.text}}
+    </mat-grid-tile>
+</mat-grid-list-->
+
+<mat-grid-list cols="4" rows="1" height="100vh">
+    <mat-grid-tile [colspan]=4 >
+        <mat-card class="example-card">
+            <mat-card-header class="example-header-image">
+              <mat-card-title>Harshit Gupta</mat-card-title>
+              <mat-card-subtitle>A Troglodyte</mat-card-subtitle>
+            </mat-card-header>
+            <img mat-card-lg-image src="/assets/images/Harshit.jpg" alt="Photo of a Shiba Inu" >
+            <mat-card-content>
+              <p>
+                Harshit is a good Boyndjasbfjdsfbjdsbgkdsb gjkdbgjksdngkjdngkdsngkjdngkjdgnjdbgjdsgbjugu
+              </p>
+            </mat-card-content>
+    
+          </mat-card>
+    </mat-grid-tile>
+    
+</mat-grid-list>
