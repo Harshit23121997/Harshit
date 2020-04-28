@@ -8,7 +8,7 @@ import { LandingComponent } from './landing/landing.component';
 const routes: Routes = [
   {path:'',component:FlipPageComponent,data:{animation:'isLeft'}},
   {path:'landing',component:LandingComponent,data:{animation:'isRight'}},
-  {path:'about',component:AboutComponent,data:{animation:'isRight'}}
+  {path:'about',component:AboutComponent ,data:{animation:'isRight'}}
 ];
 
 @NgModule({
