@@ -31,7 +31,6 @@ import {MatTabsModule} from '@angular/material/tabs';
 
 
 
-
 const MaterialComponents=[
   MatCardModule
 ]
